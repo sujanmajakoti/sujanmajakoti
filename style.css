@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    background-color:wheat;
+    background-color:black;
 }
 html{
     scroll-behavior: smooth;
@@ -17,14 +17,14 @@ html{
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: whitesmoke;
+    background: white;
 }
 ::-webkit-scrollbar-thumb {
-    background: darkblue;
+    background:black;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: red;
+    background: aqua;
 }
 
 /* all similar content styling codes */
@@ -64,7 +64,7 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #111;
+    background: black;
     transform: translateX(-50%);
 }
 section .title::after{
@@ -72,9 +72,9 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: whitesmoke;
+    color: black;
     padding: 0 5px;
-    background: rgb(39, 39, 56);
+    background: black;
     transform: translateX(-50%);
 }
 
@@ -89,7 +89,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 12px 0;
-    background:darkblue;
+    background:aqua;
     }
 .navbar .max-width{
     display: flex;
@@ -97,16 +97,16 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: green;
+    color: aqua;
     font-size: 35px;
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: darkblue;
-    transition: all 0.3s ease;
+    color: lime;
+    transition: all 0.5s ease;
 }
 .navbar.sticky .logo a span{
-    color:darkblue;
+    color:white;
 }
 .navbar .menu li{
     list-style: none;
@@ -114,23 +114,23 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color:darkblue;
+    color:aqua;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: red;
+    color: lime;
     font-weight: 1000;
 }
 .navbar.sticky .menu li a:hover{
-    color: red;
+    color: lime;
 }
 
 /* menu btn styling */
 .menu-btn{
-    color: darkblue;
+    color: aqua;
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -139,16 +139,16 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background:darkblue;
+    background:aqua;
     right: 30px;
     bottom: 10px;
     text-align: center;
-    line-height: 45px;
-    color:darkblue;
+    line-height: 50px;
+    color:aqua;
         z-index: 9999;
     font-size: 30px;
     border-radius: 6px;
-    border-bottom-width: 2px;
+    border-bottom-width: 4px;
     cursor: pointer;
     opacity: 0;
     pointer-events: none;
@@ -160,21 +160,21 @@ section .title::after{
     pointer-events: auto;
 }
 .scroll-up-btn:hover{
-    filter: brightness(90%);
+    filter: brightness(60%);
 }
 
 
 /* home section styling */
 .intropart p{
     text-align: justify;
-    color:darkblue;
+    color:aqua;
    
 }
 .home{
     display: flex;
     background: url("home.jpg") no-repeat center;
     height: 100vh;
-    color: darkblue;
+    color: aqua;
     min-height: 500px;
     background-size: cover;
     background-attachment:scroll;
@@ -203,30 +203,30 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: green;
+    color: whitesmoke;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background:darkblue;
-    color: #fff;
+    background:black;
+    color: aqua;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid whitesmoke;
+    border: 2px solid aqua;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color:darkblue;
-    background: none;
-    border :2px solid darkblue;
+    color:black;
+    background: aqua;
+    border :2px solid aqua;
 }
 
 /* about section styling */
 .about .title::after{
-    background: darkblue;
+    background: aqua;
     content: "who i am";
 }
 .about .about-content .left{
@@ -247,54 +247,56 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: darkblue;
+    color: aqua;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: darkblue;
-    color: #fff;
+    background: black;
+    color: aqua;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 10px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid darkblue;
+    border: 2px solid aqua;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: darkblue;
-    background: none;
+    color: black;
+    border: 2px solid aqua;
+    background: aqua;
 }
 
 /* skill  section styling */
 .skill, .hobby, .skills, .contact, .about{
-    color:darkblue;
-    background:wheat;
+    color:aqua;
+    background:black;
 }
 .skill .title::before,
 .hobby .title::before{
-    background: darkblue;
+    background: aqua;
 }
 .skill .title::after,
 .hobby .title::after{
-    background: darkblue;
+    background: aqua;
     content: "skills i have";
 }
 .skill .serv-content .card{
     width: calc(33% - 20px);
-    background:darkblue;
+    background:aqua;
     text-align: center;
     
     border-radius: 6px;
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
-};
+}
 .skill .serv-content .card:hover{
-   color:rgb(89, 89, 205);
+   color:aqua;
+   background: gray;
 }
 .skill .serv-content .card .box{
     transition: all 0.3s ease;
@@ -305,11 +307,11 @@ section .title::after{
 }
 .skill .serv-content .card i{
     font-size: 50px;
-    color:darkblue;
+    color:aqua;
     transition: color 0.3s ease;
 }
 .skill .serv-content .card:hover i{
-    color: rgb(124, 124, 231);
+    color: whitesmoke;
 }
 .skill .serv-content .card .text{
     font-size: 25px;
@@ -320,7 +322,8 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    background: darkblue;
+    background:aqua;
+   
     content: "what i have learnt";
 }
 .skills .skills-content .column{
@@ -336,19 +339,19 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: darkblue;
-    color: #fff;
+    background: black;
+    color: aqua;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid darkblue;
+    border: 2px solid aqua;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: darkblue;
-    background: none;
+    color:black;
+    background: aqua;
 }
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
@@ -366,7 +369,7 @@ section .title::after{
 .skills .skills-content .right .line{
     height: 5px;
     width: 100%;
-    background: rgb(225, 225, 144);
+    background: gainsboro;
     position: relative;
 }
 .skills .skills-content .right .line::before{
@@ -375,7 +378,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: rgb(78, 78, 119);
+    background: lime;
 }
 .skills-content .right .html::before{
     width: 93%;
@@ -404,11 +407,11 @@ section .title::after{
 
 /* hobbies section styling */
 .hobby .title::after{
-    background: darkblue;
+    background: aqua;
     content: "what i love to do";
 }
 .hobby .carousel .card{
-    background:darkblue;
+    background:aqua;
     border-radius: 6px;
     padding: 15px 25px;
     text-align: center;
@@ -416,7 +419,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .hobby .carousel .card:hover{
-    background: rgb(89, 89, 179);
+    background: gray;
 }
 .hobby .carousel .card .box{
     display: flex;
@@ -438,11 +441,11 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid darkblue;
+    border: 5px solid aqua;
     transition: all 0.3s ease;
 }
 .hobby .carousel .card:hover img{
-    border-color: darkblue;
+    border-color: gray;
 }
 .owl-dots{
     text-align: center;
@@ -454,7 +457,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid darkblue!important;
+    border: 2px solid aqua!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -463,12 +466,12 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background:darkblue!important;
+    background:aqua!important;
 }
 
 /* contact section styling */
 .contact .title::after{
-    background: darkblue;
+    background: aqua;
     content: "get in touch";
 }
 .contact .contact-content .column{
@@ -495,13 +498,13 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: darkblue;
+    color: aqua;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color:(darkblue);
+    color:(aqua);
 }
 .contact .right form .fields{
     display: flex;
@@ -523,8 +526,9 @@ section .title::after{
 .contact .right form .textarea textarea{
     height: 100%;
     width: 100%;
-    border: 1px solid darkblue;
-    border-radius: 6px;
+    border: 4px solid aqua;
+    background: white;
+    border-radius: 10px;
     outline: none;
     padding: 0 15px;
     font-size: 17px;
@@ -533,7 +537,7 @@ section .title::after{
 }
 .contact .right form .field input:focus,
 .contact .right form .textarea textarea:focus{
-    border-color: darkblue;
+    border-color: aqua;
 }
 .contact .right form .textarea textarea{
   padding-top: 10px;
@@ -544,7 +548,7 @@ section .title::after{
   align-items: center;
 }
 .right form .button-area button{
-  color: #fff;
+  color: aqua;
   display: block;
   width: 160px!important;
   height: 45px;
@@ -554,23 +558,23 @@ section .title::after{
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: darkblue;
-  border: 2px solid darkblue;
+  background: black;
+  border: 2px solid aqua;
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: darkblue;
-  background: none;
+  color: black;
+  background: aqua;
 }
 /* footer section styling */
 footer{
-    background: darkblue;
-    padding: 5px 5px;
-    color: black;
+    background: aqua;
+    padding: 2px ;
+    color: aqua;
     text-align: center;
 }
 footer span a{
-    color:darkblue;
+    color:lime;
     text-decoration: none;
 }
 footer span a:hover{
@@ -605,7 +609,7 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background: darkblue;
+        background: aqua;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
@@ -704,3 +708,4 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
