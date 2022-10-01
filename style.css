@@ -272,7 +272,7 @@ section .title::after{
 /* skill  section styling */
 .skill, .hobby, .skills, .contact, .about{
     color:darkblue;
-    background:#f8fff8;
+    background:wheat;
 }
 .skill .title::before,
 .hobby .title::before{
