@@ -251,7 +251,9 @@ body{
 .post .card{
     border: none;
 }
-
+.text-muted{
+    text-align: justify;
+}
 
 
 .portfolio .card img {
