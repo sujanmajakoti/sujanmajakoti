@@ -147,7 +147,7 @@ mybutton.addEventListener("click",function(){
 
 // typing text animation script
 var typed = new Typed(".typing", {
-  strings: ["UI/UX Desinger","UI/UX Desinger","Technophile","Student"],
+  strings: ["UI/UX Designer","UI/UX Designer","Technophile","Student"],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
